@@ -43,6 +43,7 @@ public class LoginTest {
 		}		
 		driver.get("http://localhost:100/");	    
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	    System.out.println("GIT Jenkins integrations");
 	}
 	
 	
